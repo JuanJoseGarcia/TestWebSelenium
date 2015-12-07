@@ -15,6 +15,7 @@ namespace TestWebSelenium
     {
         public static IWebDriver driver;
 
+
         [ClassInitialize]
         public static void SetUp(TestContext context)
         {
