@@ -68,7 +68,7 @@ namespace TestWebSelenium
         public void VerificarMail()
         {
             bool encontado = false;
-            string hostname = "imap.gmail.com", username = "cursomcsd2015@gmail.com", password = "Password";
+            string hostname = "imap.gmail.com", username = "correo@gmail.com", password = "Password";
             using (ImapClient client = new ImapClient(hostname, 993, username, password, AuthMethod.Login, true))
             {
                 IEnumerable<uint> uids = client.Search(SearchCondition.All());
